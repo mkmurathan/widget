@@ -7,15 +7,21 @@
 
 import SwiftUI
 
+let starWarsArray = [anakin,darthVader,yoda]
+
+
 struct ContentView: View {
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            ForEach(starWarsArray) { star in
+                starView(star: star)
+                
+            }
+            
         }
-        .padding()
+        
     }
 }
 

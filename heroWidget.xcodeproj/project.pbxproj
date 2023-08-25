@@ -11,7 +11,46 @@
 		E92CD93F2A97E1980069E344 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD93E2A97E1980069E344 /* ContentView.swift */; };
 		E92CD9412A97E19A0069E344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92CD9402A97E19A0069E344 /* Assets.xcassets */; };
 		E92CD9442A97E19A0069E344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92CD9432A97E19A0069E344 /* Preview Assets.xcassets */; };
+		E92CD94B2A97E47D0069E344 /* starWars.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD94A2A97E47D0069E344 /* starWars.swift */; };
+		E92CD94D2A97E6720069E344 /* circularİmage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD94C2A97E6720069E344 /* circularİmage.swift */; };
+		E92CD94F2A97EBD90069E344 /* starView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD94E2A97EBD90069E344 /* starView.swift */; };
+		E92CD9572A97F8AE0069E344 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92CD9562A97F8AD0069E344 /* WidgetKit.framework */; };
+		E92CD9592A97F8AE0069E344 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92CD9582A97F8AE0069E344 /* SwiftUI.framework */; };
+		E92CD95C2A97F8AE0069E344 /* starWarsWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD95B2A97F8AE0069E344 /* starWarsWidgetBundle.swift */; };
+		E92CD95E2A97F8AE0069E344 /* starWarsWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD95D2A97F8AE0069E344 /* starWarsWidgetLiveActivity.swift */; };
+		E92CD9602A97F8AE0069E344 /* starWarsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD95F2A97F8AE0069E344 /* starWarsWidget.swift */; };
+		E92CD9632A97F8B00069E344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92CD9622A97F8B00069E344 /* Assets.xcassets */; };
+		E92CD9652A97F8B00069E344 /* starWarsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E92CD9612A97F8AE0069E344 /* starWarsWidget.intentdefinition */; };
+		E92CD9662A97F8B00069E344 /* starWarsWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E92CD9612A97F8AE0069E344 /* starWarsWidget.intentdefinition */; };
+		E92CD9692A97F8B00069E344 /* starWarsWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E92CD9542A97F8AD0069E344 /* starWarsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E92CD96E2A97F8BF0069E344 /* starView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD94E2A97EBD90069E344 /* starView.swift */; };
+		E92CD96F2A97F8C60069E344 /* circularİmage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD94C2A97E6720069E344 /* circularİmage.swift */; };
+		E92CD9702A97F8CA0069E344 /* starWars.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CD94A2A97E47D0069E344 /* starWars.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E92CD9672A97F8B00069E344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92CD9312A97E1980069E344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92CD9532A97F8AD0069E344;
+			remoteInfo = starWarsWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E92CD96D2A97F8B00069E344 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E92CD9692A97F8B00069E344 /* starWarsWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E92CD9392A97E1980069E344 /* heroWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heroWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +58,18 @@
 		E92CD93E2A97E1980069E344 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E92CD9402A97E19A0069E344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92CD9432A97E19A0069E344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E92CD94A2A97E47D0069E344 /* starWars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starWars.swift; sourceTree = "<group>"; };
+		E92CD94C2A97E6720069E344 /* circularİmage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "circularİmage.swift"; sourceTree = "<group>"; };
+		E92CD94E2A97EBD90069E344 /* starView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starView.swift; sourceTree = "<group>"; };
+		E92CD9542A97F8AD0069E344 /* starWarsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = starWarsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92CD9562A97F8AD0069E344 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E92CD9582A97F8AE0069E344 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E92CD95B2A97F8AE0069E344 /* starWarsWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starWarsWidgetBundle.swift; sourceTree = "<group>"; };
+		E92CD95D2A97F8AE0069E344 /* starWarsWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starWarsWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		E92CD95F2A97F8AE0069E344 /* starWarsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starWarsWidget.swift; sourceTree = "<group>"; };
+		E92CD9612A97F8AE0069E344 /* starWarsWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = starWarsWidget.intentdefinition; sourceTree = "<group>"; };
+		E92CD9622A97F8B00069E344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E92CD9642A97F8B00069E344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +80,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E92CD9512A97F8AD0069E344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CD9592A97F8AE0069E344 /* SwiftUI.framework in Frameworks */,
+				E92CD9572A97F8AE0069E344 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				E92CD93B2A97E1980069E344 /* heroWidget */,
+				E92CD95A2A97F8AE0069E344 /* starWarsWidget */,
+				E92CD9552A97F8AD0069E344 /* Frameworks */,
 				E92CD93A2A97E1980069E344 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				E92CD9392A97E1980069E344 /* heroWidget.app */,
+				E92CD9542A97F8AD0069E344 /* starWarsWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +118,9 @@
 				E92CD93E2A97E1980069E344 /* ContentView.swift */,
 				E92CD9402A97E19A0069E344 /* Assets.xcassets */,
 				E92CD9422A97E19A0069E344 /* Preview Content */,
+				E92CD94A2A97E47D0069E344 /* starWars.swift */,
+				E92CD94C2A97E6720069E344 /* circularİmage.swift */,
+				E92CD94E2A97EBD90069E344 /* starView.swift */,
 			);
 			path = heroWidget;
 			sourceTree = "<group>";
@@ -67,6 +133,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E92CD9552A97F8AD0069E344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92CD9562A97F8AD0069E344 /* WidgetKit.framework */,
+				E92CD9582A97F8AE0069E344 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E92CD95A2A97F8AE0069E344 /* starWarsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				E92CD95B2A97F8AE0069E344 /* starWarsWidgetBundle.swift */,
+				E92CD95D2A97F8AE0069E344 /* starWarsWidgetLiveActivity.swift */,
+				E92CD95F2A97F8AE0069E344 /* starWarsWidget.swift */,
+				E92CD9612A97F8AE0069E344 /* starWarsWidget.intentdefinition */,
+				E92CD9622A97F8B00069E344 /* Assets.xcassets */,
+				E92CD9642A97F8B00069E344 /* Info.plist */,
+			);
+			path = starWarsWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +165,34 @@
 				E92CD9352A97E1980069E344 /* Sources */,
 				E92CD9362A97E1980069E344 /* Frameworks */,
 				E92CD9372A97E1980069E344 /* Resources */,
+				E92CD96D2A97F8B00069E344 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E92CD9682A97F8B00069E344 /* PBXTargetDependency */,
 			);
 			name = heroWidget;
 			productName = heroWidget;
 			productReference = E92CD9392A97E1980069E344 /* heroWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E92CD9532A97F8AD0069E344 /* starWarsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92CD96A2A97F8B00069E344 /* Build configuration list for PBXNativeTarget "starWarsWidgetExtension" */;
+			buildPhases = (
+				E92CD9502A97F8AD0069E344 /* Sources */,
+				E92CD9512A97F8AD0069E344 /* Frameworks */,
+				E92CD9522A97F8AD0069E344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = starWarsWidgetExtension;
+			productName = starWarsWidgetExtension;
+			productReference = E92CD9542A97F8AD0069E344 /* starWarsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +205,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					E92CD9382A97E1980069E344 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E92CD9532A97F8AD0069E344 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -116,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				E92CD9382A97E1980069E344 /* heroWidget */,
+				E92CD9532A97F8AD0069E344 /* starWarsWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +241,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E92CD9522A97F8AD0069E344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CD9632A97F8B00069E344 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +256,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92CD94B2A97E47D0069E344 /* starWars.swift in Sources */,
 				E92CD93F2A97E1980069E344 /* ContentView.swift in Sources */,
+				E92CD94D2A97E6720069E344 /* circularİmage.swift in Sources */,
+				E92CD94F2A97EBD90069E344 /* starView.swift in Sources */,
 				E92CD93D2A97E1980069E344 /* heroWidgetApp.swift in Sources */,
+				E92CD9662A97F8B00069E344 /* starWarsWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92CD9502A97F8AD0069E344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CD95E2A97F8AE0069E344 /* starWarsWidgetLiveActivity.swift in Sources */,
+				E92CD9602A97F8AE0069E344 /* starWarsWidget.swift in Sources */,
+				E92CD9702A97F8CA0069E344 /* starWars.swift in Sources */,
+				E92CD95C2A97F8AE0069E344 /* starWarsWidgetBundle.swift in Sources */,
+				E92CD96E2A97F8BF0069E344 /* starView.swift in Sources */,
+				E92CD96F2A97F8C60069E344 /* circularİmage.swift in Sources */,
+				E92CD9652A97F8B00069E344 /* starWarsWidget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92CD9682A97F8B00069E344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92CD9532A97F8AD0069E344 /* starWarsWidgetExtension */;
+			targetProxy = E92CD9672A97F8B00069E344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E92CD9452A97E19A0069E344 /* Debug */ = {
@@ -262,6 +407,7 @@
 		E92CD9482A97E19A0069E344 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +437,7 @@
 		E92CD9492A97E19A0069E344 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +464,60 @@
 			};
 			name = Release;
 		};
+		E92CD96B2A97F8B00069E344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B36X348RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = starWarsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = starWarsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murathankaragoz.heroWidget.starWarsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E92CD96C2A97F8B00069E344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2B36X348RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = starWarsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = starWarsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murathankaragoz.heroWidget.starWarsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +535,15 @@
 			buildConfigurations = (
 				E92CD9482A97E19A0069E344 /* Debug */,
 				E92CD9492A97E19A0069E344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92CD96A2A97F8B00069E344 /* Build configuration list for PBXNativeTarget "starWarsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92CD96B2A97F8B00069E344 /* Debug */,
+				E92CD96C2A97F8B00069E344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
